@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('landing-page.index');
 });
 
+Route::get('/gallery', function () {
+    return view('landing-page.gallery');
+});
+
 Route::get('/login', function () {
     return view('login');
 });
