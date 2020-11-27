@@ -79,7 +79,7 @@
 								</li>
 
 								<li>
-									<a href="{{ secure_url('contact') }}">
+									<a href="#contact">
 										Contact us
 									</a>
 								</li>

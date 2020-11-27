@@ -71,25 +71,21 @@
 										Gallery
 									</a>
 								</li>
-
 								<li>
-									<a href="#about">
+									<a href="{{ secure_url('about') }}">
 										About us
 									</a>
 								</li>
-
 								<li>
-									<a href="#contact">
+									<a href="{{ secure_url('contact') }}">
 										Contact us
 									</a>
 								</li>
-
 								{{-- <li>
 									<a href="{{ secure_url('login') }}">
 										Login
 									</a>
 								</li> --}}
-								
 								<li>
 									<div class="header-icons">
 										{{-- <a class="shopping-cart" href="cart.html"><i class="fas fa-shopping-cart"></i></a>

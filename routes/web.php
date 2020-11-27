@@ -29,6 +29,10 @@ Route::get('/about', function () {
     return view('landing-page.about');
 });
 
+Route::get('/contact', function () {
+    return view('landing-page.contact');
+});
+
 Route::get('/login', function () {
     return view('login');
 });

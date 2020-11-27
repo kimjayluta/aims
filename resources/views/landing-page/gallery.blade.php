@@ -73,13 +73,13 @@
 								</li>
 
 								<li>
-									<a href="#about">
+									<a href="{{ secure_url('about') }}">
 										About us
 									</a>
 								</li>
 
 								<li>
-									<a href="#contact">
+									<a href="{{ secure_url('contact') }}">
 										Contact us
 									</a>
 								</li>
