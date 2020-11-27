@@ -25,6 +25,10 @@ Route::get('/product', function () {
     return view('landing-page.product_details');
 });
 
+Route::get('/about', function () {
+    return view('landing-page.about');
+});
+
 Route::get('/login', function () {
     return view('login');
 });
