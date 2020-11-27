@@ -61,7 +61,7 @@
 						<nav class="main-menu">
 							<ul>
 								<li class="current-list-item">
-									<a href="#home">
+									<a href="{{ secure_url('/') }}">
 										Home
 									</a>
 								</li>

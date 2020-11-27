@@ -21,6 +21,10 @@ Route::get('/gallery', function () {
     return view('landing-page.gallery');
 });
 
+Route::get('/product', function () {
+    return view('landing-page.product_details');
+});
+
 Route::get('/login', function () {
     return view('login');
 });
